@@ -1,0 +1,490 @@
+<!--
+
+THIS FILE HAS ABOUT 3,300 WORDS TO TRANSLATE
+
+TRANSLATION NOTES:
+
+When translating this thing, only edit the stuff that's BETWEEN the <tags>, like so:
+
+    <p id="still_english">hello</p>
+    =>
+    <p id="still_english">bonjour</p>
+
+Also, DON'T change anything between the [square brackets], like so:
+
+    Number #[N]
+    =>
+    Numero #[N]
+
+Exception to the "don't change tags" rule:
+Feel free to move around the italics & bold tags, so that the emphasis
+on the right phrases/words still makes sense!
+
+    <i>italics</i>
+    <b>bold</b>
+
+Also, some HTML weirdness you might want to know:
+
+    &amp; is an ampersand "&" sign
+    &#8226; is a dot
+    &rarr; is a rightward-facing arrow
+    &lt; is a "<" sign
+
+ALSO! I'd love for you to credit yourself as a translator!
+You can add your own name in the <p id="subtitle"> section
+
+Thanks again!
+~ Nicky Case
+
+-->
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - META STUFF - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="meta_title">
+Peace and War
+</p>
+<p id="meta_desc">
+an interactive guide to the game theory of why &amp; how we trust each other
+</p>
+<p id="meta_loading">
+loading...
+</p>
+<p id="meta_on">
+	ON
+	</p>
+	<p id="meta_off">
+	OFF
+	</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - TITLE! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="title">
+<span style="font-size:0.75em">THE</span><br>
+PEACE-WAR<br>
+<span style="font-size:0.75em">GAME</span>
+</p>
+<p id="subtitle">
+	<br>
+
+DA Lab Project &#8226; by Kim, Sai - March 2024
+
+<!-- TRANSLATION NOTE: UNCOMMENT THE FOLLOWING & ADD YOUR OWN NAME! -->
+<!--
+<br>
+translated by YOUR NAME HERE
+&#8226;
+<a href="http://ncase.me/trust/">original English version</a>
+-->
+
+</p>
+
+<p id="loading">
+loading...
+</p>
+<p id="loading_done">
+PLAY &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - INTRO! - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="intro">
+	<br><br><br><br>
+<b><i style="font-size: 45px">He who is skilled in war subdues the enemy without fighting.</i><br><br>
+- Sun Tzu, The Art of War, III.2</b>
+<br><br>
+</p>
+<div class="object button" size="long" style="left: 304px; top: 400px !important; opacity: 1;">
+<p id="intro_button">
+Trial Game? &rarr;
+</p></div>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ONE OFF! - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_you_cooperate">
+you<br>peace
+</p>
+
+<p id="label_you_cheat">
+you<br>war
+</p>
+
+<p id="label_they_cooperate">
+they<br>peace
+</p>
+
+<p id="label_they_cheat">
+they<br>war
+</p>
+
+<p id="label_you">
+you<br>↙
+</p>
+<p id="label_them">
+other player<br>↘
+</p>
+
+<p id="oneoff_0_top">
+
+<b>THE PEACE-WAR GAME</b>
+<br>
+You have one choice.
+In front of you is a machine: if you put a coin in the machine,
+the <i>other player</i> gets three coins – and vice versa.
+You both can either choose PEACE (put in coin), or WAR (don't put in coin).
+</p>
+
+<p id="oneoff_0_btm">
+<b>Let's say the other player chooses war, and doesn't put in a coin.</b><br>
+What should you do?
+</p>
+
+<p id="oneoff_1_cheated">
+Exactly! Why let that moocher mooch off of you?
+</p>
+
+<p id="oneoff_1_cooperated">
+Alas, turning the other cheek just gets you slapped!
+</p>
+
+<p id="oneoff_1_top">
+If you choose peace &amp; they choose war, you lose a coin while they gain +3. (score: -1 vs +3)
+However, if you both choose war, neither of you gain or lose anything. (score: 0 vs 0)
+<b>Therefore: choose WAR XD.</b>
+</p>
+
+<p id="oneoff_1_btm">
+<b>But let's say the other player chooses peace, and puts in a coin.</b><br>
+What should you do now?
+</p>
+
+<p id="oneoff_2_cheated">
+Wow, that's mean... and also the correct answer!
+</p>
+
+<p id="oneoff_2_cooperated">
+Sure, seems like the right thing to do... <b>OR IS IT??</b>
+</p>
+
+<p id="oneoff_2_top">
+Because if you both choose peace, you both give up a coin to gain +3. (score: +2 vs +2)
+But if you choose war &amp; they choose peace, you gain +3 coins at their cost of one. (score: +3 vs -1)
+<b>Therefore: "should" choose WAR XD.</b>
+</p>
+
+<p id="oneoff_2_btm">
+And <i>that's</i> our dilemma.
+Trust is nice, but it can let others take advantage of you -- or shoot you as you come unarmed out of a trench.
+Sometimes, distrust <i>is</i> rational!
+But now, what happens if we play this game...
+</p>
+
+<p id="oneoff_button_next">
+Let's Go?! &rarr;
+</p>
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - - ITERATED - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="iterated_intro_top">
+<b>Now, let's play for real.</b>
+You'll be playing against 5 different opponents, each with their own game "strategy".
+With each opponent, you'll play anywhere between 3 to 7 rounds.
+(You won't know in advance when the last round is)
+Can you trust them? Or rather... can they trust <i>you?</i>
+</p>
+
+<p id="iterated_intro_btm">
+Pick your first, <i>real</i> move. <b>Choose wisely.</b>
+</p>
+
+<p id="iterated_info_1">
+opponent: [X] of [Y]
+</p>
+</p>
+<p id="iterated_info_2">
+your total score: 
+</p>
+
+<p id="iterated_score_start">
+And your total score is...
+</p>
+<p id="iterated_score_1">
+which is, wow, actually <i>impressively</i> bad.
+</p>
+<p id="iterated_score_2">
+which, uh, could be worse!
+</p>
+<p id="iterated_score_3">
+which ain't bad!
+</p>
+<p id="iterated_score_4">
+which is pretty good!
+</p>
+<p id="iterated_score_5">
+which is <i>perfect!</i> Congrats you have too much time on your hands.
+</p>
+<p id="iterated_score_x">
+...i have no idea how you did that.
+</p>
+<p id="iterated_score_end">
+(the lowest &amp; highest possible scores are 7 and 49, respectively)
+</p>
+
+<p id="who_were">
+So who were these strange characters you just played against?
+</p>
+
+<p id="character_tft">
+<b>COPYCAT:</b>
+Hello! I start with Cooperate, and afterwards, I just copy whatever you did in the last round. Meow
+</p>
+
+<p id="character_all_d">
+<b>ALWAYS CHEAT:</b>
+<i>Well Hey let's say the strong shall eat the weak.</i>
+</p>
+
+<p id="character_all_c">
+<b>ALWAYS COOPERATE:</b>
+Haha, Let's be best friends! &lt;3
+</p>
+
+<p id="character_grudge">
+<b>GRUDGER:</b>
+Duh Listen, pardner. I'll choose peace, and keep cooperatin',
+but if y'all ever choose to cheat me by choosing war, I'LL CHEAT YOU BACK 'TIL THE END OF TARNATION.
+</p>
+
+<p id="character_prober">
+<b>DETECTIVE:</b>
+First: I analyze you. I start: Cooperate with peace, Cheat with war, Cooperate with peace and Cooperate.
+If you cheat back, I'll act like <span class="tft">Copycat</span>.
+If you never cheat back, I'll act like <span class="all_d">Always Cheat</span>, to exploit you.
+Elementary, my dear Watson XD.
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - THE PLAYERS - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_tft">Copycat</p>
+<p id="label_short_tft">
+copycat
+</p>
+<p id="icon_tft">
+<span class="tft">
+	<span class="icon"></span>
+	<span class="icon_label">Copycat</span>
+</span>
+</p>
+
+<p id="label_all_d">Always Cheat</p>
+<p id="label_short_all_d">
+cheater
+</p>
+<p id="icon_all_d">
+<span class="all_d">
+	<span class="icon"></span>
+	<span class="icon_label">All Cheat</span>
+</span>
+</p>
+
+<p id="label_all_c">Always Cooperate</p>
+<p id="label_short_all_c">
+cooperator
+</p>
+<p id="icon_all_c">
+<span class="all_c">
+	<span class="icon"></span>
+	<span class="icon_label">All Cooperate</span>
+</span>
+</p>
+
+<p id="label_grudge">Grudger</p>
+<p id="label_short_grudge">
+grudger
+</p>
+<p id="icon_grudge">
+<span class="grudge">
+	<span class="icon"></span>
+	<span class="icon_label">Grudger</span>
+</span>
+</p>
+
+<p id="label_prober">Detective</p>
+<p id="label_short_prober">
+detective
+</p>
+<p id="icon_prober">
+<span class="prober">
+	<span class="icon"></span>
+	<span class="icon_label">Detective</span>
+</span>
+</p>
+
+<p id="label_tf2t">Copykitten</p>
+<p id="label_short_tf2t">
+copykitten
+</p>
+<p id="icon_tf2t">
+<span class="tf2t">
+	<span class="icon"></span>
+	<span class="icon_label">Copykitten</span>
+</span>
+</p>
+
+<p id="label_pavlov">Simpleton</p>
+<p id="label_short_pavlov">
+simpleton
+</p>
+<p id="icon_pavlov">
+<span class="pavlov">
+	<span class="icon"></span>
+	<span class="icon_label">Simpleton</span>
+</span>
+</p>
+
+<p id="label_random">Random</p>
+<p id="label_short_random">
+random
+</p>
+<p id="icon_random">
+<span class="random">
+	<span class="icon"></span>
+	<span class="icon_label">Random</span>
+</span>
+</p>
+
+<p id="forgot_whos_who">
+(forgot who's who? hover buttons to see descriptions of each character!)
+</p>
+<p id="who_tft">
+Starts with Cooperate. Then, it simply repeats whatever YOU did in the last round.
+</p>
+<p id="who_all_d">
+Always cheats.
+</p>
+<p id="who_all_c">
+Always cooperates.
+</p>
+<p id="who_grudge">
+Starts with Cooperate, and keeps cooperating until you cheat it even once.
+Afterwards, it always plays Cheat.
+</p>
+<p id="who_prober">
+Starts with: Cooperate, Cheat, Cooperate, Cooperate.
+Afterwards, if you ever retaliate with a Cheat, it plays like a Copycat.
+Otherwise, it plays like an Always Cheat.
+</p>
+<p id="who_tf2t">
+Starts with Cooperate.
+Only retaliates with a Cheat if you cheated it TWICE in a row.
+</p>
+<p id="who_pavlov">
+Starts with Cooperate.
+Then, if you cooperated in last round, it repeats its last move (even if it was an accident).
+But if you cheated in last round, it switches its last move (even if it was an accident).
+</p>
+<p id="who_random">
+Randomly cheats or cooperates with 50-50 chance
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - - SMALL LABELS! - - - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="label_cooperate">
+Peace
+</p>
+
+<p id="label_cheat">
+War
+</p>
+
+<p id="label_play">
+play
+</p>
+
+<p id="label_start">
+START
+</p>
+
+<p id="label_stop">
+STOP
+</p>
+
+<p id="label_step">
+step
+</p>
+
+<p id="label_reset">
+reset
+</p>
+
+<p id="label_population">
+population
+</p>
+
+<p id="label_payoffs">
+payoffs
+</p>
+
+<p id="label_rules">
+rules
+</p>
+
+<p id="label_next">
+next &rarr;
+</p>
+
+<p id="label_continue">
+continue
+</p>
+
+
+<!-- - - - - - - - - - - - - - - - - -->
+<!-- - - - NAVIGATING CHAPTERS - - - -->
+<!-- - - - - - - - - - - - - - - - - -->
+
+<p id="chapter_intro">
+0. Introduction
+</p>
+<p id="chapter_oneoff">
+1. Trial Game
+</p>
+<p id="chapter_iterated">
+2. Iterated Game
+</p>
+<p id="chapter_tournament">
+3. One Tournament
+</p>
+<p id="chapter_evolution">
+4. Repeated Tournament
+</p>
+<p id="chapter_distrust">
+5. The Evolution of Distrust
+</p>
+<p id="chapter_noise">
+6. Making Mistaeks
+</p>
+<p id="chapter_sandbox">
+7. Sandbox Mode
+</p>
+<p id="chapter_conclusion">
+8. Conclusion
+</p>
+<p id="chapter_credits">
+9. Credits
+</p>
