@@ -1,5 +1,8 @@
 # The Peace-War Game | Kimberly-Marcelin-Nathan
 
+*Check out the website here ↓* \
+🔗https://kimberly-marcelin-nathan.github.io/Peace_and_War_DecisionAnalysis_GameTheory/
+
 The project is a web-based interactive guide focused on exploring game theory 
 concepts related to trust and cooperation through the lens of the "Peace-War Game."
 It comprises HTML, CSS, and JavaScript files that collectively create an 
