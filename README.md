@@ -1,4 +1,4 @@
-*The Peace-War Game | Kimberly-Marcelin-Nathan
+#The Peace-War Game | Kimberly-Marcelin-Nathan
 
 The project is a web-based interactive guide focused on exploring game theory 
 concepts related to trust and cooperation through the lens of the "Peace-War Game."
@@ -41,7 +41,7 @@ strategic thinking in social interactions.
 
 **Font:** [Futura Handwritten](http://www.dafont.com/futurahandwritten.font) by Bill Snyder
 
-*Project Collaboration
+#Project Collaboration
 
 🔗https://www.linkedin.com/in/kimberlymarcelinnathan/ \
 🔗https://in.linkedin.com/in/sai-manasa-b-1765b420b
